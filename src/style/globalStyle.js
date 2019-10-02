@@ -12,8 +12,7 @@ export default createGlobalStyle`
 
     }
     body{
-        background: #191920 url(${backg}) no-repeat;
-        background-size:contain;
+        background: #191920 url(${backg}) no-repeat top center;
         color:white
     }
 `;

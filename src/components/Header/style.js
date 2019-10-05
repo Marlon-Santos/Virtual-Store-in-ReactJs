@@ -6,6 +6,15 @@ export const Container = styled.div`
   justify-content: space-between;
   flex: 1;
   padding: 20px;
+  @media screen and (max-width: 490px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    img {
+      margin-bottom: 10px;
+      width: 100%;
+    }
+  }
 `;
 
 export const Cart = styled(Link)`
@@ -15,6 +24,7 @@ export const Cart = styled(Link)`
   text-decoration: none;
   color: white;
   transition: 300ms;
+
   :hover {
     opacity: 0.6;
   }

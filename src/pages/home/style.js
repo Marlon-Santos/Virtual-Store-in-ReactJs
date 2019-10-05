@@ -9,17 +9,27 @@ export const Container = styled.div`
   margin: 0 auto;
   padding: 20px;
   justify-items: flex-start;
+  @media screen and (max-width: 614px) {
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
   > div {
     color: black;
     display: flex;
-    width: 33.33%;
-    /* max-width: 250px; */
+    /* width: 33.33%; */
+    max-width: 250px;
     flex-direction: column;
     text-align: left;
     background: #fff;
     background-clip: padding-box;
     border: 5px solid transparent;
-    padding: 10px;
+    padding: 20px;
+    @media screen and (max-width: 804px) {
+      max-width: 280px;
+      border-width: 10px;
+    }
+
     img {
       width: 100%;
     }

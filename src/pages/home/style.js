@@ -4,7 +4,7 @@ export const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  max-width: 900px;
+  max-width: 1100px;
   justify-content: center;
   margin: 0 auto;
   padding: 20px;
@@ -17,7 +17,6 @@ export const Container = styled.div`
   > div {
     color: black;
     display: flex;
-    /* width: 33.33%; */
     max-width: 250px;
     flex-direction: column;
     text-align: left;
@@ -25,9 +24,11 @@ export const Container = styled.div`
     background-clip: padding-box;
     border: 5px solid transparent;
     padding: 20px;
+    border-radius: 15px;
     @media screen and (max-width: 804px) {
       max-width: 280px;
       border-width: 10px;
+      border-radius: 20px;
     }
 
     img {
@@ -41,14 +42,25 @@ export const Container = styled.div`
       margin-top: auto;
       background-color: #7159c1;
       align-items: center;
-
+      color: white;
+      :hover {
+        cursor: pointer;
+      }
       > div {
         padding: 5px;
         display: flex;
         justify-content: flex-start;
         align-items: center;
         background-color: rgba(0, 0, 0, 0.1);
-        margin-right: 5px;
+        :hover {
+          cursor: default;
+        }
+        svg {
+          padding-right: 5px;
+        }
+      }
+      span {
+        margin: 0 auto;
       }
     }
   }

@@ -16,7 +16,7 @@ export default function app() {
           <strong>R$ 129,55</strong>
           <button type="button">
             <div>
-              <Icon size={20} color="#fff" />
+              <Icon size={20} color="#fff" />3
             </div>
             <span>adicionar ao carrinho</span>{" "}
           </button>
@@ -30,7 +30,7 @@ export default function app() {
           <strong>R$ 129,55</strong>
           <button type="button">
             <div>
-              <Icon size={20} color="#fff" />
+              <Icon size={20} color="#fff" />3
             </div>
             <span>adicionar ao carrinho</span>{" "}
           </button>
@@ -44,7 +44,7 @@ export default function app() {
           <strong>R$ 129,55</strong>
           <button type="button">
             <div>
-              <Icon size={20} color="#fff" />
+              <Icon size={20} color="#fff" />3
             </div>
             <span>adicionar ao carrinho</span>{" "}
           </button>
@@ -58,7 +58,7 @@ export default function app() {
           <strong>R$ 129,55</strong>
           <button type="button">
             <div>
-              <Icon size={20} color="#fff" />
+              <Icon size={20} color="#fff" />3
             </div>
             <span>adicionar ao carrinho</span>{" "}
           </button>
@@ -76,7 +76,7 @@ export default function app() {
 
           <button type="button">
             <div>
-              <Icon size={20} color="#fff" />
+              <Icon size={20} color="#fff" />3
             </div>
             <span>adicionar ao carrinho</span>{" "}
           </button>
@@ -90,7 +90,7 @@ export default function app() {
           <strong>R$ 129,55</strong>
           <button type="button">
             <div>
-              <Icon size={16} color="#fff" />
+              <Icon size={16} color="#fff" />3
             </div>
             <span>adicionar ao carrinho</span>{" "}
           </button>
